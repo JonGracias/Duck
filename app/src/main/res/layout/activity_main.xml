@@ -8,8 +8,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="centerInside"
-        android:src="@drawable/bartdance" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/duck" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,12 +22,12 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:textSize="20sp"
-            android:text="It's a Bart!"/>
+            android:text="It's a Duck!"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:textSize="20sp"
-            android:text="Just a picture"/>
+            android:text="(not a real one)"/>
     </LinearLayout>
 </FrameLayout>
